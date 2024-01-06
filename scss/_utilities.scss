@@ -814,6 +814,7 @@ $utilities: map-merge(
     "background":(
       property: background-position,
       class: bg-p,
+      responsive: true,
       values:(
         center:center center,
       )
