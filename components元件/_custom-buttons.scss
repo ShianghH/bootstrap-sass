@@ -1,0 +1,8 @@
+// 客製化按鈕
+.btn-coustom-hex{
+    @include button-variant(#69F0AE,#69F0AE)
+}
+
+.btn-outline-hex{
+    @include button-outline-variant(#408d68)
+}
