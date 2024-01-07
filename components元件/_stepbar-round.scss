@@ -1,9 +1,11 @@
+$size:16px;
+
 .stepbar-round{
     display: flex;
     flex-direction: column;
     background-color: rgb(191, 191, 191);
-    border-radius: 16px;
-     margin-bottom: 8px;
+    border-radius: $size;
+    margin-bottom: $size/2;
     
     
     
@@ -11,7 +13,7 @@
     .stepbar-round-item{
     color: white;
     width: 100%;
-    border-radius: 16px;
+    border-radius: $size;
    
      
     
