@@ -1,0 +1,42 @@
+.stepbar-round{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(191, 191, 191);
+    border-radius: 16px;
+     margin-bottom: 8px;
+    
+    
+    
+    
+    .stepbar-round-item{
+    color: white;
+    width: 100%;
+    border-radius: 16px;
+   
+     
+    
+    
+    
+
+
+    }
+
+    .stepbar-90{
+      width: 90%;
+      background-color: $success;
+      text-align: center;   
+    }
+    .stepbar-80{
+        width: 80%;
+        background-color: $success;
+        text-align: center;     
+    }
+    .stepbar-70{
+        width: 70%;
+        background-color: $success;   
+        text-align: center;  
+    }
+    
+}
+
+

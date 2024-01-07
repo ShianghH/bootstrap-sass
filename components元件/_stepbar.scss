@@ -18,28 +18,28 @@
         z-index: -1;
 
     }
+    .stepbar-item{
+        background-color: $primary;
+        width: $size;
+        height: $size;
+        border-radius: $size;
+        border: 1px solid white;
 
-}
-
-.stepbar-item{
-    background-color: $primary;
-    width: $size;
-    height: 3rem;
-    border-radius: 3rem;
-    border: 1px solid white;
-
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 
-//狀態
-.stepbar-item.active{
-    box-shadow: 0 0 0 1px $primary;
-}
+    //狀態
+    .stepbar-item.active{
+        box-shadow: 0 0 0 1px $primary;
+    }
 
-.stepbar-item.active~.stepbar-item{
-    background-color: $gray-500;
+    .stepbar-item.active~.stepbar-item{
+        background-color: $gray-500;
+    }
+
+
 }

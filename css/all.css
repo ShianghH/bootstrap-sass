@@ -9827,8 +9827,7 @@ textarea.form-control-lg {
   position: absolute;
   z-index: -1;
 }
-
-.stepbar-item {
+.stepbar .stepbar-item {
   background-color: #0d6efd;
   width: 3rem;
   height: 3rem;
@@ -9845,12 +9844,43 @@ textarea.form-control-lg {
       -ms-flex-align: center;
           align-items: center;
 }
-
-.stepbar-item.active {
+.stepbar .stepbar-item.active {
   -webkit-box-shadow: 0 0 0 1px #0d6efd;
           box-shadow: 0 0 0 1px #0d6efd;
 }
-
-.stepbar-item.active ~ .stepbar-item {
+.stepbar .stepbar-item.active ~ .stepbar-item {
   background-color: #adb5bd;
+}
+
+.stepbar-round {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgb(191, 191, 191);
+  border-radius: 16px;
+  margin-bottom: 8px;
+}
+.stepbar-round .stepbar-round-item {
+  color: white;
+  width: 100%;
+  border-radius: 16px;
+}
+.stepbar-round .stepbar-90 {
+  width: 90%;
+  background-color: #198754;
+  text-align: center;
+}
+.stepbar-round .stepbar-80 {
+  width: 80%;
+  background-color: #198754;
+  text-align: center;
+}
+.stepbar-round .stepbar-70 {
+  width: 70%;
+  background-color: #198754;
+  text-align: center;
 }
